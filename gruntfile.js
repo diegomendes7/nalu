@@ -19,7 +19,12 @@ module.exports   = function(grunt){
         options: {
           sourceMap: true,
           mergeIntoShorthands: false,
+<<<<<<< HEAD
           roundingPrecision: -1
+=======
+          roundingPrecision: -1,
+          keepSpecialComments: 0
+>>>>>>> 862df5473805c134889b51152ded37828155010d
         },
         target: {
           files: {

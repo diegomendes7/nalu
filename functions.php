@@ -24,17 +24,28 @@ add_theme_support( 'custom-logo',
 /* suporte ao woocommerce                               */
 /********************************************************/
 global $woocommerce;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 862df5473805c134889b51152ded37828155010d
 add_action( 'after_setup_theme', 'woocommerce_support' );
 function woocommerce_support() {
     add_theme_support( 'woocommerce' );
 }
 
+<<<<<<< HEAD
 //require_once('functions/adicionais-woocommerce.php');
 
 // adicionar tamanhos de imagens personalizados para wordpress
 add_image_size('thumb_produto', 256, 305, true);
 // add_image_size('thumb_produto_principal', 256, 305, true);
 // add_image_size('thumb_produto_carousel', 256, 305, true);
+=======
+require_once('functions/adicionais-woocommerce.php');
+
+
+
+>>>>>>> 862df5473805c134889b51152ded37828155010d
 /* ----------------------------------------------------- */
 /* Escondendo a versão do Wordpress */
 /* ----------------------------------------------------- */

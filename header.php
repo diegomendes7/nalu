@@ -13,7 +13,11 @@
   <body>
 
     <header>
+<<<<<<< HEAD
       <div class="" id="topoSite">
+=======
+      <div class="navbar-fixed-top" id="topoSite">
+>>>>>>> 862df5473805c134889b51152ded37828155010d
         <div class="bar-top">
           <div class="container">
             <div class="row">

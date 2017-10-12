@@ -74,7 +74,11 @@
   <!-- Modal -->
   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
+<<<<<<< HEAD
       <div class="modal-content">        
+=======
+      <div class="modal-content">
+>>>>>>> 862df5473805c134889b51152ded37828155010d
         <div class="modal-body">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <img src="<?php echo get_template_directory_uri() ?>/assets/images/detalhe-medida.png" alt="" class="img-responsive">
